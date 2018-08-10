@@ -1,0 +1,16 @@
+[
+{
+  "modid": "running_redenvelope",
+  "name": "Running Red Envelope",
+  "description": "It might be a test.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://www.mcbbs.net/thread-780027-1-1.html",
+  "updateUrl": "",
+  "authorList": ["DepletePrism"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
