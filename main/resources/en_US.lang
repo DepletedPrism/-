@@ -1,0 +1,10 @@
+item.goldCoin.name=Gold Coin
+item.pennyNote.name=Penny Note
+item.redEnvelope.name=Red Envelope
+item.sighFromSinger.name=Sigh From Singer
+item.steelCoin.name=Steel Coin
+item.twoDimensionalFoilForRedEnvelope.name=Two-Dimensional Foil For RedEnvelope
+
+tile.castingStation.name=Casting Station
+
+itemGroup.running_redenvelope=Running Red Envelope
