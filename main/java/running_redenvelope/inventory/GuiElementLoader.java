@@ -22,10 +22,10 @@ public class GuiElementLoader implements IGuiHandler
 	{
 		switch (ID)
 		{
-		case GUI_REDENVELOPE:
-			return new ContainerRedEnvelope(player);
-		default:
-			return null;
+			case GUI_REDENVELOPE:
+				return new ContainerRedEnvelope(player);
+			default:
+				return null;
 		}
 	}
 	
@@ -34,10 +34,10 @@ public class GuiElementLoader implements IGuiHandler
 	{
 		switch (ID)
 		{
-		case GUI_REDENVELOPE:
-			return new GuiContainerRedEnvelope(new ContainerRedEnvelope(player));
-		default:
-			return null;
+			case GUI_REDENVELOPE:
+				return new GuiContainerRedEnvelope(new ContainerRedEnvelope(player));
+			default:
+				return null;
 		}
 	}
 }
