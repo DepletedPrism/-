@@ -21,7 +21,7 @@ public class CommonProxy
 		new BlockLoader(event);
 		new GuiElementLoader();
 		new EntityLoader();
-    }
+    	}
 	
 	public void init(FMLInitializationEvent event)
 	{
