@@ -11,6 +11,6 @@ public class ItemSteelCoin extends Item
 		super();
         this.setUnlocalizedName("steelCoin");
 		this.setCreativeTab(CreativeTabsLoader.tabRunning_RedEnvelope);
-        this.setTextureName(Running_RedEnvelope.MODID + ":" + "steel_Coin");
+        this.setTextureName(Running_RedEnvelope.MODID + ":" + "steel_coin");
 	}
 }

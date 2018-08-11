@@ -11,6 +11,6 @@ public class ItemGoldCoin extends Item
 		super();
         this.setUnlocalizedName("goldCoin");
 		this.setCreativeTab(CreativeTabsLoader.tabRunning_RedEnvelope);
-        this.setTextureName(Running_RedEnvelope.MODID + ":" + "gold_Coin");
+        this.setTextureName(Running_RedEnvelope.MODID + ":" + "gold_coin");
 	}
 }

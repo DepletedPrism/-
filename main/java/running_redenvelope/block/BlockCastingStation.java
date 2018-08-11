@@ -1,4 +1,4 @@
-package running_redenvelope.Block;
+package running_redenvelope.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

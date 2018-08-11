@@ -37,6 +37,7 @@ public class ItemRedEnvelope extends Item
                 int id = GuiElementLoader.GUI_REDENVELOPE;
                 playerIn.openGui(Running_RedEnvelope.instance, id, worldIn, i, j, k);
             }
+            worldIn.spawnEntityInWorld(new EntityRedEnvelope(worldIn));
         }
         return itemStackIn;
     }

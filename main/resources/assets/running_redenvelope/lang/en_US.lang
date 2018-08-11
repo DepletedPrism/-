@@ -1,9 +1,11 @@
+entity.RedEnvelope.name=Red Envelope
+
 item.goldCoin.name=Gold Coin
 item.pennyNote.name=Penny Note
 item.redEnvelope.name=Red Envelope
 item.sighFromSinger.name=Sigh From Singer
 item.steelCoin.name=Steel Coin
-item.twoDimensionalFoilForRedEnvelope.name=Two-Dimensional Foil For RedEnvelope
+item.twoDimensionalFoilForRedEnvelope.name=Two-Dimensional Foil For Red Envelope
 
 tile.castingStation.name=Casting Station
 

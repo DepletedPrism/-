@@ -1,7 +1,5 @@
 package running_redenvelope;
 
-import org.apache.logging.log4j.Logger;
-
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -13,7 +11,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = Running_RedEnvelope.MODID, name = Running_RedEnvelope.NAME, version = Running_RedEnvelope.VERSION)
 public class Running_RedEnvelope 
 {
-    public static final String MODID = "running_redenvelope";
+	public static final String MODID = "running_redenvelope";
     public static final String NAME = "Running Red Envelope";
     public static final String VERSION = "0.1.0";
     
@@ -24,12 +22,9 @@ public class Running_RedEnvelope
             serverSide = "running_redenvelope.common.CommonProxy")
     public static running_redenvelope.common.CommonProxy proxy;
     
-    private Logger logger;
-    
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-    	logger = event.getModLog();
     	proxy.preInit(event);
     }
     
@@ -43,10 +38,5 @@ public class Running_RedEnvelope
     public void postInit(FMLPostInitializationEvent event)
     {
     	proxy.postInit(event);
-    }
-    
-    public Logger getLogger()
-    {
-        return logger;
     }
 }

@@ -1,8 +1,0 @@
-package running_redenvelope.entity;
-
-import net.minecraft.world.World;
-
-public class EntityRedEnvelope 
-{
-	
-}

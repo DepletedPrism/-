@@ -14,7 +14,7 @@ import running_redenvelope.inventory.ContainerRedEnvelope;;
 @SideOnly(Side.CLIENT)
 public class GuiContainerRedEnvelope extends GuiContainer
 {
-	private static final String TEXTURE_PATH = Running_RedEnvelope.MODID + ":" + "textures/gui/gui_envelope.png";
+	private static final String TEXTURE_PATH = Running_RedEnvelope.MODID + ":" + "textures/gui/gui_redenvelope.png";
     private static final ResourceLocation TEXTURE = new ResourceLocation(TEXTURE_PATH);
 	
 	public GuiContainerRedEnvelope(ContainerRedEnvelope inventorySlotsIn)

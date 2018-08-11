@@ -1,10 +1,12 @@
-item.goldCoin.name=é‡‘é•š
-item.pennyNote.name=ä¸€åˆ†é’±å­—æ¡
-item.redEnvelope.name=çº¢åŒ…
-item.sighFromSinger.name=æ­Œè€…çš„å¹æ¯
-item.steelCoin.name=é’¢é•š
-item.twoDimensionalFoilForRedEnvelope.name=çº¢åŒ…äºŒå‘ç®”
+entity.RedEnvelope.name=ºì°ü
 
-tile.castingStation.name=é“¸é€ ç«™
+item.goldCoin.name=½ğéG
+item.pennyNote.name=Ò»·ÖÇ®×ÖÌõ
+item.redEnvelope.name=ºì°ü
+item.sighFromSinger.name=¸èÕßµÄÌ¾Ï¢
+item.steelCoin.name=¸ÖéG
+item.twoDimensionalFoilForRedEnvelope.name=ºì°ü¶şÏò²­
 
-itemGroup.running_redenvelope=è¿½ä¸ä¸Šçš„çº¢åŒ…
+tile.castingStation.name=ÖıÔìÕ¾
+
+itemGroup.running_redenvelope=×·²»ÉÏµÄºì°ü

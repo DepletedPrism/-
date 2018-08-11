@@ -5,7 +5,7 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-import running_redenvelope.Block.BlockLoader;
+import running_redenvelope.block.BlockLoader;
 import running_redenvelope.item.ItemLoader;
 
 public class CraftingLoader 
