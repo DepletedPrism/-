@@ -16,7 +16,7 @@ public class ContainerRedEnvelope extends Container
     	{
         	super();
         
-        	//for (int i = 0; i < 4; ++i)
+        	//for (in.t i = 0; i < 4; ++i)
 			//this.addSlotToContainer(new SlotItemHandler(items, i, 38 + i * 32, 20));
 	
         	for (int i = 0; i < 3; ++i)
