@@ -15,6 +15,6 @@ public class CreativeTabsRunning_RedEnvelope extends CreativeTabs
 	@Override
 	public Item getTabIconItem()
 	{
-    	return ItemLoader.redEnvelope;
+    		return ItemLoader.redEnvelope;
 	}
 }
