@@ -10,9 +10,9 @@ public class EntityLoader
 	private static int nextID = 0;
 	
 	public EntityLoader()
-    {
+	{
 		registerEntity(EntityRedEnvelope.class, "RedEnvelope", 64, 3, true);
-    }
+	}
 	
 	private static void registerEntity(Class<? extends Entity> entityClass, String name, int trackingRange, int updateFrequency, boolean sendsVelocityUpdates)
 	{

@@ -9,8 +9,8 @@ public class ItemSteelCoin extends Item
 	public ItemSteelCoin()
 	{
 		super();
-        this.setUnlocalizedName("steelCoin");
+		this.setUnlocalizedName("steelCoin");
 		this.setCreativeTab(CreativeTabsLoader.tabRunning_RedEnvelope);
-        this.setTextureName(Running_RedEnvelope.MODID + ":" + "steel_coin");
+		this.setTextureName(Running_RedEnvelope.MODID + ":" + "steel_coin");
 	}
 }

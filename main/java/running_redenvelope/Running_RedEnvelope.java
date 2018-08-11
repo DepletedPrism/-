@@ -12,15 +12,14 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 public class Running_RedEnvelope 
 {
 	public static final String MODID = "running_redenvelope";
-    public static final String NAME = "Running Red Envelope";
-    public static final String VERSION = "0.1.0";
-    
-    @Instance(Running_RedEnvelope.MODID)
-    public static Running_RedEnvelope instance;
-    
-    @SidedProxy(clientSide = "running_redenvelope.client.ClientProxy", 
-            serverSide = "running_redenvelope.common.CommonProxy")
-    public static running_redenvelope.common.CommonProxy proxy;
+	public static final String NAME = "Running Red Envelope";
+	public static final String VERSION = "0.1.0";
+	
+	@Instance(Running_RedEnvelope.MODID)
+	public static Running_RedEnvelope instance;
+	
+    @SidedProxy(clientSide = "running_redenvelope.client.ClientProxy", serverSide = "running_redenvelope.common.CommonProxy")
+	public static running_redenvelope.common.CommonProxy proxy;
     
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
@@ -36,7 +35,7 @@ public class Running_RedEnvelope
     
     @EventHandler
     public void postInit(FMLPostInitializationEvent event)
-    {
+	{
     	proxy.postInit(event);
-    }
+	}
 }

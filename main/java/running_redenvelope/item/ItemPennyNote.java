@@ -9,8 +9,8 @@ public class ItemPennyNote extends Item
 	public ItemPennyNote()
 	{
 		super();
-        this.setUnlocalizedName("pennyNote");
+		this.setUnlocalizedName("pennyNote");
 		this.setCreativeTab(CreativeTabsLoader.tabRunning_RedEnvelope);
-        this.setTextureName(Running_RedEnvelope.MODID + ":" + "penny_note");
+		this.setTextureName(Running_RedEnvelope.MODID + ":" + "penny_note");
 	}
 }

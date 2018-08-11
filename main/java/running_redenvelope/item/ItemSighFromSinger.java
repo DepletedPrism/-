@@ -9,8 +9,8 @@ public class ItemSighFromSinger extends Item
 	public ItemSighFromSinger()
 	{
 		super();
-        this.setUnlocalizedName("sighFromSinger");
+		this.setUnlocalizedName("sighFromSinger");
 		this.setCreativeTab(CreativeTabsLoader.tabRunning_RedEnvelope);
-        this.setTextureName(Running_RedEnvelope.MODID + ":" + "sigh_from_singer");
+		this.setTextureName(Running_RedEnvelope.MODID + ":" + "sigh_from_singer");
 	}
 }

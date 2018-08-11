@@ -9,8 +9,8 @@ public class ItemTwoDimensionalFoilForRedEnvelope extends Item
 	public ItemTwoDimensionalFoilForRedEnvelope()
 	{
 		super();
-        this.setUnlocalizedName("twoDimensionalFoilForRedEnvelope");
+		this.setUnlocalizedName("twoDimensionalFoilForRedEnvelope");
 		this.setCreativeTab(CreativeTabsLoader.tabRunning_RedEnvelope);
-        this.setTextureName(Running_RedEnvelope.MODID + ":" + "two-dimensional_foil_for_red_envelope");
+		this.setTextureName(Running_RedEnvelope.MODID + ":" + "two-dimensional_foil_for_red_envelope");
 	}
 }

@@ -7,13 +7,13 @@ import net.minecraft.world.World;
 public class EntityRedEnvelope extends EntityChicken
 {
 	public EntityRedEnvelope(World worldIn)
-    {
-        super(worldIn);
-    }
+	{
+		super(worldIn);
+	}
 	
 	@Override
-    public void onLivingUpdate()
-    {
-        super.onLivingUpdate();
-    }
+	public void onLivingUpdate()
+	{
+		super.onLivingUpdate();
+	}
 }

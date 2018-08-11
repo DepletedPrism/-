@@ -14,7 +14,7 @@ import running_redenvelope.item.ItemLoader;
 public class CommonProxy 
 {
 	public void preInit(FMLPreInitializationEvent event)
-    {
+	{
 		new ConfigLoader(event);
 		new CreativeTabsLoader(event);
 		new ItemLoader(event);
@@ -22,15 +22,14 @@ public class CommonProxy
 		new GuiElementLoader();
 		new EntityLoader();
     }
-
-    public void init(FMLInitializationEvent event)
-    {
-    	 new CraftingLoader();
-    }
-
-    public void postInit(FMLPostInitializationEvent event)
-    {
-    	//TODO
-    }
-
+	
+	public void init(FMLInitializationEvent event)
+	{
+		new CraftingLoader();
+	}
+	
+	public void postInit(FMLPostInitializationEvent event)
+	{
+		//TODO
+	}
 }
