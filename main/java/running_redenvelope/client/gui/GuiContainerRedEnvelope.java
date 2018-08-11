@@ -15,29 +15,29 @@ import running_redenvelope.inventory.ContainerRedEnvelope;;
 public class GuiContainerRedEnvelope extends GuiContainer
 {
 	private static final String TEXTURE_PATH = Running_RedEnvelope.MODID + ":" + "textures/gui/gui_redenvelope.png";
-	private static final ResourceLocation TEXTURE = new ResourceLocation(TEXTURE_PATH);
+    private static final ResourceLocation TEXTURE = new ResourceLocation(TEXTURE_PATH);
 	
 	public GuiContainerRedEnvelope(ContainerRedEnvelope inventorySlotsIn)
-	{
-		super(inventorySlotsIn);
-		this.xSize = 176;
-		this.ySize = 127;
-	}
-	
-	@Override
-	protected void drawGuiContainerBackgroundLayer(float partialTicks, int mouseX, int mouseY)
-	{
-		GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
-		
-		this.mc.getTextureManager().bindTexture(TEXTURE);
-		int offsetX = (this.width - this.xSize) / 2, offsetY = (this.height - this.ySize) / 2;
-		
-		this.drawTexturedModalRect(offsetX, offsetY, 0, 0, this.xSize, this.ySize);
-	}
-	
-	@Override
-	protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY)
-	{
-		// TODO
-	}
+    {
+        super(inventorySlotsIn);
+        this.xSize = 176;
+        this.ySize = 127;
+    }
+
+    @Override
+    protected void drawGuiContainerBackgroundLayer(float partialTicks, int mouseX, int mouseY)
+    {
+    	 GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+    	
+    	 this.mc.getTextureManager().bindTexture(TEXTURE);
+         int offsetX = (this.width - this.xSize) / 2, offsetY = (this.height - this.ySize) / 2;
+
+         this.drawTexturedModalRect(offsetX, offsetY, 0, 0, this.xSize, this.ySize);
+    }
+
+    @Override
+    protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY)
+    {
+        // TODO
+    }
 }
