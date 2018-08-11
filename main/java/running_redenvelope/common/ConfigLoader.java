@@ -30,7 +30,7 @@ public class ConfigLoader
 		
 		config.save();
 		logger.info("Finished loading config. ");
-    }
+   	}
 	
 	public static Logger logger()
 	{
