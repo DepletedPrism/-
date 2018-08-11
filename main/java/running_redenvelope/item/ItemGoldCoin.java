@@ -9,8 +9,8 @@ public class ItemGoldCoin extends Item
 	public ItemGoldCoin()
 	{
 		super();
-        this.setUnlocalizedName("goldCoin");
+		this.setUnlocalizedName("goldCoin");
 		this.setCreativeTab(CreativeTabsLoader.tabRunning_RedEnvelope);
-        this.setTextureName(Running_RedEnvelope.MODID + ":" + "gold_coin");
+		this.setTextureName(Running_RedEnvelope.MODID + ":" + "gold_coin");
 	}
 }
