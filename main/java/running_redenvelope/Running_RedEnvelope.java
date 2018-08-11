@@ -18,24 +18,24 @@ public class Running_RedEnvelope
 	@Instance(Running_RedEnvelope.MODID)
 	public static Running_RedEnvelope instance;
 	
-    @SidedProxy(clientSide = "running_redenvelope.client.ClientProxy", serverSide = "running_redenvelope.common.CommonProxy")
+	@SidedProxy(clientSide = "running_redenvelope.client.ClientProxy", serverSide = "running_redenvelope.common.CommonProxy")
 	public static running_redenvelope.common.CommonProxy proxy;
-    
-    @EventHandler
-    public void preInit(FMLPreInitializationEvent event)
-    {
-    	proxy.preInit(event);
-    }
-    
-    @EventHandler
-    public void init(FMLInitializationEvent event)
-    {
-    	proxy.init(event);
-    }
-    
-    @EventHandler
-    public void postInit(FMLPostInitializationEvent event)
+	
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent event)
 	{
-    	proxy.postInit(event);
+		proxy.preInit(event);
+    	}
+    	
+    	@EventHandler
+    	public void init(FMLInitializationEvent event)
+    	{
+    		proxy.init(event);
+    	}
+	
+	@EventHandler
+	public void postInit(FMLPostInitializationEvent event)
+	{
+    		proxy.postInit(event);
 	}
 }
